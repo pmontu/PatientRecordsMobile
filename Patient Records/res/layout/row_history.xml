@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvRowHistorySN"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_gravity="top"
+        android:layout_weight="0.20"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight=".8"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvRowHistoryCondition"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Condition"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvRowHistoryDiagnosis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Diagnosis"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvRowHistoryTreatment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Treatment"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+</LinearLayout>
